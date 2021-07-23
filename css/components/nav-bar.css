@@ -1,0 +1,30 @@
+.nav{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    background-color:#f9f9fa;
+    padding:20px 40px;
+    box-sizing:border-box;
+    border-top:1px solid rgba(0, 0, 0, 0.3);
+}
+.nav__ul{
+    display:flex;
+    justify-content:space-between;
+}
+.nav__li{
+    position:relative;
+}
+.nav__chat_num{
+    position:absolute;
+    left:20px;
+    bottom:15px;
+}
+.nav__find{
+    background-color:tomato;
+    display:block;
+    width:6px;
+    height:6px;
+    border-radius:3px;
+    position:absolute;
+    left:35px;
+}
